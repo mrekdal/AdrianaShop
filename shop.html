@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" >
+    <title>Shop Online</title>
+    <meta name="keywords" content=" acquista, shop,online, verdura, frutta,html" >
+    <meta name="description" content="Pagina dei prodotti alimentari biologici di Angolo Bio" >
+    <meta name="author" content="Adriana Berardino" >
+    <link rel="stylesheet" type="text/css" href="style.css" >
+  </head>
+ 
+  <body>
+	  <header>
+      <a href="home.html"> 
+      <img src="immagini/logo.jpg" alt="logo della pagina" title="logo Vita Bio" id="logo"></a>
+   </header>
+   
+ 
+    <nav>
+      <ul>
+        <li class="menu"><a href="home.html">Home</a></li> 
+        <li class="menu"><a href="chi_siamo.html">Chi siamo</a></li> 
+        <li class="menu"><a href="contatti.html">Contatti</a></li>
+        <li class="menu"><strong>Shop Online</strong> </li> 
+        <li class="menu"><a href="blog.html">Blog</a></li>
+		 </ul>  
+   </nav>
+	 <br><br><br>
+	      
+ 
+   <article id="article_shop">
+     <h2 id="article_h2">I nostri prodotti</h2>
+      <div class="products">
+  
+        <article class="product">
+          <h3 class="article_h3">Carote Bio</h3>
+          <img src="immagini/carote_bio.jpg" alt="Carote" title="Carote bio" class="immagini_shop">
+          <p>Prezzo: €2.99/kg</p>
+        </article>
+        <article class="product">
+          <h3 class="article_h3">Patate novelle Bio</h3>
+          <img src="immagini/patate_novelle_bio.jpg" alt="Patate novelle" title="Patate novelle bio" class="immagini_shop">
+          <p>Prezzo: €3.00/kg</p>
+        </article>
+       <article class="product">
+         <h3 class="article_h3">Radicchio Tondo Bio</h3>
+         <img src="immagini/radicchio_tondo_bio.jpg" alt="Radicchio tondo" title= "Radicchio Tondo Biologico" class="immagini_shop">
+         <p>Prezzo: €3.50/kg</p>
+      </article>
+       <article class="product">
+          <h3 class="article_h3">Uova Da Allevamento All'aperto Bio</h3>
+         <img src="immagini/uova_bio_allevamento_aperto.jpg" alt="Uova biologiche" title="Uova Da Allevamento All'aperto Biologiche" class="immagini_shop">
+         <p>Prezzo: €2.00/6 pz.</p>
+       </article>
+       <article class="product">
+          <h3 class="article_h3">Rucola Bio 125 gr</h3>
+          <img src="immagini/rucola_bio.jpg" alt="Rucola" title="Rucola Bio" class="immagini_shop">
+         <p>Prezzo: €2.62/125gr</p>
+       </article>
+       <article class="product">
+         <h3 class="article_h3">Melanzane Bio</h3>
+         <img src="immagini/melanzane_bio.jpg" alt="Melanzane" title="Melanzane Bio" class="immagini_shop">
+         <p>Prezzo: €3.80/kg</p>
+        </article>
+       <article class="product">
+         <h3 class="article_h3">Barbabietola rossa Bio</h3>
+         <img src="immagini/barbabietola_rossa_bio.jpg" alt="Barbabietola rossa" title="Barbabietola rossa Bio" class="immagini_shop">
+         <p>Prezzo: €1.75/kg</p>
+       </article>
+       <article class="product">
+          <h3 class="article_h3">Mele rosse</h3>
+         <img src="immagini/mele_rosse.jpg" alt="Mele" title="Mele rosse" class="immagini_shop">
+          <p>Prezzo: €1.95/kg</p>
+       </article>
+       <article class="product">
+          <h3 class="article_h3">Pere Abate</h3>
+          <img src="immagini/pere_abate.jpeg" alt="Pere" title="Pere abate" class="immagini_shop">
+          <p>Prezzo: €4.00/kg</p>
+       </article>
+      </div>
+   </article>
+ 
+    <aside id="aside_shop">
+      <form action="ordine_inviato.html" method="POST">
+        <h3>Seleziona i prodotti da aggiungere al carrello:</h3>
+        <label for="carote_bio">Carote Bio:</label>
+        <input id="carote_bio" type="number" name="carote_bio" min="0" value="0">
+        <br>
+        <label for="patate_novelle"> Patate novelle Bio:</label>
+        <input  id="patate_novelle" type="number" name="patate_novelle" min="0" value="0">
+        <br>
+        <label for="radicchio_tondo">Radicchio tondo Bio:</label>
+        <input id="radicchio_tondo" type="number" name="radicchio_tondo" min="0" value="0">
+        <br>
+       <label for="uova_da_allevamento">Uova da allevamento all'aperto Bio:</label>
+        <input id="uova_da_allevamento" type="number" name="uova_da_allevamento" min="0" value="0">
+        <br>
+       <label for="rucola_bio">Rucola Bio:</label>
+        <input id="rucola_bio" type="number" name="rucola_bio" min="0" value="0">
+        <br>
+       <label for="melanzane_bio">Melanzane Bio:</label>
+        <input id="melanzane_bio" type="number" name="melanzane_bio" min="0" value="0">
+        <br>
+       <label for="barbabietola_rossa">Barbabietola rossa Bio:</label>
+        <input id="barbabietola_rossa" type="number" name="barbabietola_rossa" min="0" value="0">
+        <br>
+       <label for="mele_rosse">Mele rosse:</label>
+        <input id="mele_rosse" type="number" name="mele_rosse" min="0" value="0">
+        <br>
+        <label for="pere_abate"> Pere abate:</label>
+        <input id="pere_abate" type="number" name="pere_abate" min="0" value="0">
+        <br>
+        <br>
+        <h3>Inserisci i tuoi recapiti:</h3>
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" name="nome">
+        <br>
+        <label for="cognome">Cognome:</label>
+        <input id="cognome" type="text" name="cognome">
+        <br>
+        <label for="telefono">Numero di telefono:</label>
+        <input id="telefono" type="tel" name="telefono">
+        <br>
+        <label for="email">Indirizzo email:</label>
+        <input id="email" type="email" name="email">
+        <br>
+        <input type="submit" value="Invia ordine">
+      </form>
+    </aside>
+ 
+    <footer>
+     <img src="immagini/footer.jpg" alt="logo della pagina" title="footer Vita Bio" id="footer">
+      <p>Copyright 2024 Vita Bio - Adriana Berardino</p>
+   </footer>
+  </body>
+</html>

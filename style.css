@@ -1,0 +1,214 @@
+/*GENERALI*/
+body {
+  background-color: #d5ffde;
+  font-family: 'Gill Sans','Calibri', 'sans-serif';
+}
+
+header {
+  text-align: center;
+}
+
+#logo {
+  width: 165px;
+  margin-left: auto;
+  margin-right: auto;                    
+  display: block;
+}
+
+
+footer {
+  clear: both;
+  margin: 20px 0;
+  padding: 3%;
+  background: 100%;
+  color: #8eb17f;
+  text-align: center;
+}
+
+#footer {
+  width: 100px;
+	height: 100px;
+  margin-left:auto;
+  margin-right: auto;
+  
+}
+
+/*HOME*/
+
+/*NAV*/
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #79f0be;
+  text-align: center;
+}
+
+.menu {
+  display: inline;
+  padding: 15px;
+  background-color: #57ca91;
+  border: 2px solid #3fad76;
+  border-radius: 16px;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+/*NAV*/
+
+
+#bio {
+  width: 600px;
+  border: solid 6px #8eb17f;
+  border-radius: 16px;
+}
+
+
+article {
+  width: 55%;
+  float:left;
+}
+
+article h2 {
+  margin: 0 0 10px 0;
+}
+
+article h3 {
+  margin: 20px 0 10px 0;
+}
+
+article ol {
+  margin: 0 0 20px 20px;
+}
+
+article button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #8eb17f;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+/*SHOP*/
+aside {
+  width: 38%;
+  padding: 25px;
+  float:left;
+}
+
+#ordine {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+
+aside h3 {
+  margin: 0 0 10px 0;
+}
+
+#text {
+  font-family: 'Gill Sans', 'Calibri', 'sans-serif';
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin:20px;
+}
+
+.product {
+  width: 33.3%;
+}
+
+form {
+  float: right;
+}
+
+.immagini_shop {
+	height: 150px;
+}
+
+
+
+/*SHOP*/
+
+/*CHI SIAMO*/
+#contadini {
+	border: 30px solid #8eb17f;
+}
+
+#article_chisiamo {
+	width: 50%;
+}
+
+#aside_chisiamo {
+    width: 38%;
+    padding: 25px;
+    float:left;
+}
+
+#contadini {
+	width: 350px;
+	padding: 1px;
+	border: 3px solid #8eb17f;
+	margin-left: 200px;
+	margin-bottom: 100px;
+}
+
+#section_chisiamo {
+	margin-left: 190px;
+	margin-bottom: 100px;
+}
+
+
+#foto {
+  width: 500px;
+  padding: 1px;
+  border: 3px solid #e0efda;
+}
+
+table {
+	table-layout: fixed;
+	width: 650px;
+	border: 5px solid #8eb17f;
+	border-spacing: 5px;
+}
+
+td {
+	border: 2px solid #8eb17f;
+}
+
+#presentazione {
+  display: inline;
+  padding: 90px;
+}
+/*CHI SIAMO*/
+
+/*BLOG*/
+#blog {
+  text-align: center;
+  
+}
+/*BLOG*/
+
+article h4{
+  display:none;
+}
+
+

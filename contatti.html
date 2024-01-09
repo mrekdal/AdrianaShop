@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="it">  
+ <head>
+   <meta charset="UTF-8" >
+   <title> Contatti </title>
+   <meta name="keywords" content="pagina Vita Bio, form,contatti, html, messaggio" >
+    <meta name="description" content="Contatti Vita Bio" >
+    <meta name="author" content="Adriana Berardino" >
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+     
+ <body>
+	  <header>
+      <a href="home.html"> 
+      <img src="immagini/logo.jpg" alt="logo della pagina" title="logo Vita Bio" id="logo"></a>
+    </header>
+   
+   <nav>
+      <ul>
+        <li class="menu"><a href="home.html">Home</a></li>
+        <li class="menu"><a href="chi_siamo.html">Chi siamo</a></li>  
+        <li class="menu"><strong>Contatti</strong></li>
+        <li class="menu"><a href="shop.html">Shop Online</a></li>  
+        <li class="menu"><a href="blog.html">Blog</a></li> 
+      </ul>  
+    </nav>
+
+   <br><br><br>
+ 
+    <article>
+      <h1>Vuoi contattarci?</h1>
+      <p>Compila il form, ti risponderemo nel piú breve tempo possibile!</p>
+      <br>
+      <form action="messaggio_inviato.html" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input id="nome" type="text" name="nome" ><br>
+        <label for="cognome">Cognome:</label><br>
+        <input id="cognome" type="text" name="cognome" ><br>
+        <label for="messaggio">Messaggio:</label><br>
+        <textarea id="messaggio" name="messaggio"></textarea><br>
+        <label for="file">File</label><br>
+        <input id="file" type="file" name="file"><br>
+        <label for="reset">Reset </label>
+        <input id="reset" type="reset" value="reset">
+        <button type="submit">Invia</button>
+      </form>
+    </article>
+ 
+    <br>
+    <footer>
+      <img src="immagini/footer.jpg" alt="logo della pagina" title="footer Vita Bio" id="footer">
+      <p>Copyright 2024 Vita Bio - Adriana Berardino</p>
+    </footer>
+ </body>
+ 
+</html>
+ 
+
